@@ -1,0 +1,153 @@
+html {
+	font-size: 16px;
+}
+
+header {
+    background: #1e7145;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+
+  nav {
+    float: left;
+  }
+
+  nav ul {
+    list-style: none;
+    overflow: hidden;
+  }
+
+  nav ul li {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 20px;
+}
+
+nav ul li a {
+    display: block; 
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  nav ul button {
+    display: block; 
+    padding: 1px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  nav ul li:hover {
+    background: #eca023;
+  }
+
+  header.bottom {
+    background: orangered;
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+    margin-top: 500px;
+  }
+
+  nav.bottom {
+    float: left;
+  }
+
+  nav ul.bottom {
+    list-style: none;
+    overflow: hidden;
+  }
+
+  nav ul li.bottom {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 20px;
+}
+
+nav ul li a.bottom {
+    display: block; 
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  nav ul button.bottom {
+    display: block; 
+    padding: 1px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  nav ul li:hover.bottom {
+    background: #eca023;
+  }
+
+  img {
+    height:150px; 
+    width: 150px;
+    margin-top: 120px;
+  }
+
+  h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #00008b;
+  }
+
+  p {
+    font-family: 'Courier New', Courier, monospace;
+    color: #00008b;
+  }
+  
+  .social-bar {
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+  }
+  
+  .icon {
+    color: white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+  }
+  
+  .icon-facebook {
+    background: #2E406E;
+  }
+  
+  .icon-github {
+    background:#414141 ;
+  }
+  
+  .icon-instagram {
+    background: #3F60A5;
+  }
+
+  .icon-steam2 {
+    background: #1b2838 ;
+  }
+
+  .icon-google {
+    background: #eca023;
+  }
+  
+  .icon:first-child {
+    border-radius: 1rem 0 0 0;
+  }
+  
+  .icon:last-child {
+    border-radius: 0 0 0 1rem;
+  }
+  
+  .icon:hover {
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+  }
